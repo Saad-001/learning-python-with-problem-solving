@@ -23,3 +23,18 @@ def multiply(*numbers) :
 
 output = multiply(1, 2, 3, 4, 5)
 print(output)
+
+# taking key value pair arguments
+
+def print_name(f_name, l_name, **knames) :
+    print(f_name, l_name, knames)
+
+print_name(f_name="Mr. ", l_name="abdur rahman ", family_name="chowdhury")
+
+
+def total_cost(price, quantity) :
+    cost = price * quantity
+    return cost
+
+pay = total_cost(3, 10)
+print(f"please pay : {pay}")
