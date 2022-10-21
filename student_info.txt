@@ -1,0 +1,1 @@
+{1: {'student_1_name': 'sam', 'student_1_mark': 90}, 2: {'student_2_name': 'tom', 'student_2_mark': 50}}
